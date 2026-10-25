@@ -1,0 +1,17 @@
+{
+    "name": "bikefix-club/backend-api",
+    "description": "BikeFix Club Full-Stack REST API",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-json": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BikeFix\\": "src/"
+        }
+    }
+}

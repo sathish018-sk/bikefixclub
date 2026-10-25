@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Logs and Storage
+backend/storage/logs/*.log
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+backend/storage/invoices/*
+!backend/storage/invoices/.gitkeep
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
